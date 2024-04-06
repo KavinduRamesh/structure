@@ -1,23 +1,28 @@
 import logo from './logo.svg';
 import './App.css';
+import WebMobile from './components/webMobile/webMobile';
+import DigitalStrategy from './components/digitalStrategy/digitalStrategy';
+import Questions from './components/questions/questions';
+import Nav from './components/nav/nav';
+
+
+import 'bootstrap/dist/css/bootstrap.min.css';
+import FreeConsultant from './components/freeConsultant/freeConsultant';
+import Home from './components/home/home';
+import Footer from './components/footer/footer';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Nav></Nav>
+      <Home></Home>
+      <FreeConsultant></FreeConsultant>
+      <WebMobile></WebMobile>
+      <DigitalStrategy></DigitalStrategy>
+      <Questions></Questions>
+      <Footer></Footer>
+      
     </div>
   );
 }

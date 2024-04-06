@@ -1,0 +1,14 @@
+.free-btn{
+    border-radius: 3px;
+    color: white;
+    background-color: orange;
+    border: none;
+}
+.container-free{
+    width: 80%;
+    background-color: aqua;
+}
+.free-text{
+    color: white;
+    font-size: 80px;
+}

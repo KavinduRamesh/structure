@@ -1,0 +1,12 @@
+.container-web{
+    background-color: rgb(55, 255, 0);
+    padding: 5%;
+    width: 80%;
+
+}
+.learn-more-btn{
+    border-radius: 3px;
+    color: white;
+    background-color: orange;
+    border: none;
+}
